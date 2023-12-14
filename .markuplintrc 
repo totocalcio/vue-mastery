@@ -4,5 +4,8 @@
   },
   "specs": {
     "\\.vue$": "@markuplint/vue-spec"
-  }
+  },
+  "excludeFiles": [
+    "./**/index.html"
+  ]
 }
